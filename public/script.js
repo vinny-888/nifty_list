@@ -160,9 +160,9 @@ function createListItem(listId, number) {
     const item = document.createElement('li');
     item.id = number;
     item.classList.add('list-item');
-    let island_url = island_urls[parseInt(number)];
+    let island_url = island_urls[parseInt(number)-1];
     let name = island_url.split('/')[3];
-    item.innerHTML = '<span>#' + number + '</span> <a href="'+island_url+'">'+name+'</a>';
+    item.innerHTML = '<span>#' + number + '</span> <a href="'+island_url+'" target="blank">'+name+'</a>';
 
     const removeButton = document.createElement('button');
     removeButton.textContent = 'X';

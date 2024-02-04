@@ -2,6 +2,9 @@ body, html {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
+    background-image: url('/bloom_squad.png');
+    background-size: cover;
+    color: #fff;
 }
 
 .container {
@@ -27,7 +30,9 @@ body, html {
 .list-item {
     list-style: none;
     padding: 10px;
+    color: #000;
     border: 1px solid #ddd;
+    background-color: #fff;
     margin-bottom: 5px;
     display: flex;
     justify-content: space-between;
@@ -49,9 +54,11 @@ body, html {
 }
 
 .list-container {
+    text-align: center;
+    background-color: #1b1b1b;
     border: 1px solid #ccc;
     padding: 20px;
-    width: 200px; /* Adjust width as needed */
+    width: 250px; /* Adjust width as needed */
 }
 
 .list {
@@ -63,6 +70,27 @@ body, html {
     margin-bottom: 10px;
 }
 
+.button {
+    background-color: #04AA6D; /* Green */
+    border: none;
+    color: white;
+    padding: 4px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 12px;
+  }
+
 .remove-button {
     margin-left: 10px;
+    background-color: #aa0404;
+}
+
+.split-button {
+    margin-left: 10px;
+    background-color: #aa7e04;
+}
+.inputNumber{
+    margin: 12px;
 }

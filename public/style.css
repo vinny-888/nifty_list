@@ -1,0 +1,68 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    margin: 20px;
+}
+
+#numberInput {
+    padding: 10px;
+    margin-right: 10px;
+    width: 200px;
+}
+
+#addButton {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.list {
+    margin-top: 20px;
+    padding: 0;
+}
+
+.list-item {
+    list-style: none;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.remove-button {
+    cursor: pointer;
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+}
+
+#listsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Adjust the spacing between lists as needed */
+}
+
+.list-container {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 200px; /* Adjust width as needed */
+}
+
+.list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.list-item {
+    margin-bottom: 10px;
+}
+
+.remove-button {
+    margin-left: 10px;
+}

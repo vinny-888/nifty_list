@@ -1,0 +1,27 @@
+{
+    "name": "TTS-Compare",
+    "version": "0.1.0",
+    "description": "Compare TTS with ELO Ratings",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "dependencies": {
+        "@babel/runtime": "^7.18.6",
+        "body-parser": "^1.20.1",
+        "cors": "^2.8.5",
+        "elo-rank": "^1.0.4",
+        "express": "^4.18.1",
+        "json-url": "^3.0.0",
+        "node-fetch": "^2.6.7",
+        "uuid": "^9.0.0"
+    },
+    "engines": {
+        "node": "14.x"
+    },
+    "repository": {
+        "url": ""
+    },
+    "license": "MIT",
+    "keywords": []
+}

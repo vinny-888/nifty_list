@@ -238,9 +238,11 @@ function createListUI(listId){
 
     listAddButton.addEventListener('click', () => {
         const value = listInput.value.trim();
-        if (value !== '') {
+        if (value !== '' && parseInt(value) > 0 && parseInt(value) < 101) {
             appendNumberToList(value, list);
             listInput.value = ''; // Clear input field
+        } else {
+          alert('You must enter a number from 1-100');
         }
     });
 
